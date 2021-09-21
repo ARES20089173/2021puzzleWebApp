@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Scrollbanner from './component/framework/scrollbanner';
+import NavigationBar from './component/framework/navigationBar';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NavigationBar/>
+    <Scrollbanner/>
+    <App/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
