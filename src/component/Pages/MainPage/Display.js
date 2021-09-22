@@ -1,7 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import './App.css'
 import GameChooser from '../../framework/gamechooser';
 import Scrollbanner from '../../framework/scrollbanner';
 import NavigationBar from '../../framework/navigationBar';
